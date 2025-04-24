@@ -74,7 +74,7 @@ This is built to visualize the sorting algorithms. The goal was also to understa
 ### Built With
 
 * [![Python][Python]][Python-url]
-* [![Matplotlib][Matplotlib]][Matplotlib-url]]]
+* [![Matplotlib][Matplotlib]][Matplotlib-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
