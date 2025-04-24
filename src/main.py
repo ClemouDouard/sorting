@@ -4,8 +4,8 @@ import matplotlib.animation as animation
 
 from utils import quicksort
 
-N = 1000
-data = [rd.randint(1, 1000) for _ in range(N)]
+N = 100
+data = [rd.randint(1, 100) for _ in range(N)]
 
 if __name__ == "__main__":
     
@@ -20,6 +20,6 @@ if __name__ == "__main__":
             bar.set_height(h)
         return bar
 
-    anim = animation.FuncAnimation(fig, update, frames=len(states), interval=1, repeat=False)
+    anim = animation.FuncAnimation(fig, update, frames=len(states), interval=0.001, repeat=False)
     plt.show()
     anim.save("quicksort.gif", writer="pillow")
